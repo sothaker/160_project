@@ -1,0 +1,410 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+/* Breathing
+--------------------------------------*/
+  .Breathe {
+      background-image: url(../Images/Breathe_Background.jpg);
+      
+  }
+  .center{
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 25%;
+  }
+
+  .Finish{
+    display: block;
+    width: 150px;
+    height: 45px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    max-width: 500px;
+    margin: auto;
+  }
+
+/* Sign up
+--------------------------------------*/
+.Sign_up_Page{
+    background-image: url(../Images/Signup_Page_Background.jpg);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  
+}
+.content{
+  max-width: 500px;
+  margin: auto;
+}
+#login-box {
+  position: relative;
+  margin: 5% auto;
+  width: 600px;
+  height: 400px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+input[type="text"],
+input[type="email"]
+ {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+input[type="date"],
+input[type="password"]
+ {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-bottom: 2px solid #16a085;
+  color: #2C98BC;
+  transition: 0.2s ease;
+}
+
+input[type="date"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #16a085;
+  color: #2C98BC;
+  transition: 0.2s ease;
+}
+
+input[type="submit"] {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: #2C98BC;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.registerbtn{
+  background-color: white; 
+  border: 2px solid grey;
+  color: black;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.registerbtn:hover {
+  background-color: #2C98BC; 
+  color: white;
+}
+
+/* Login
+--------------------------------------*/
+.Login_Page{
+  background-image: url(../Images/Login_Page_Background.jpg);
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+
+}
+.content{
+max-width: 500px;
+margin: auto;
+}
+#login-box {
+position: relative;
+margin: 5% auto;
+width: 600px;
+height: 400px;
+background: #FFF;
+border-radius: 2px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+input[type="text"],
+input[type="email"]
+{
+display: block;
+box-sizing: border-box;
+margin-bottom: 20px;
+padding: 4px;
+width: 220px;
+height: 32px;
+border: none;
+border-bottom: 1px solid #AAA;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 15px;
+transition: 0.2s ease;
+}
+
+input[type="date"],
+input[type="password"]
+{
+display: block;
+box-sizing: border-box;
+margin-bottom: 20px;
+padding: 4px;
+width: 220px;
+height: 32px;
+border: none;
+border-bottom: 1px solid #AAA;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 15px;
+transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+border-bottom: 2px solid #14492B;
+color: #14492B;
+transition: 0.2s ease;
+}
+
+input[type="submit"] {
+margin-top: 28px;
+width: 120px;
+height: 32px;
+background: #14492B;
+border: none;
+border-radius: 2px;
+color: #FFF;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+text-transform: uppercase;
+transition: 0.1s ease;
+cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+opacity: 0.8;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+opacity: 1;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+transition: 0.1s ease;
+}
+
+.loginbtn{
+  background-color: white; 
+  border: 2px solid #14492B;
+  color: black;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.loginbtn:hover {
+  background-color: #C8E690; 
+  color: white;
+}
+
+/* Landing Page
+--------------------------------------*/
+.background{
+  background-image: url(../Images/Landing_Page_Background.jpg);
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+.content-wrap{
+  max-width: 200px;
+  margin: auto;
+  padding-top: 15%;
+}
+
+.Brand{
+  color: #AAA;
+}
+
+.buttons{
+  background-color: white; 
+  border: 2px solid grey;
+  color: black;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.buttons:hover {
+  background-color: #60828B; 
+  color: white;
+}
+
+/* Discover
+--------------------------------------*/
+.Disc_body{
+  background-image: url(../Images/Discover_Background.jpg);
+  color: whitesmoke;
+}
+.Description{
+  max-width: 500px;
+  margin: auto;
+}
+.dashbtn{
+  background-color: white; 
+  border: 2px solid #074051;
+  color: black;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.dashbtn:hover {
+  background-color: #3AB1C7; 
+  color: white;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 100vh;
+  display: block;
+}
+
+.column.journal {
+  background-image: url(../Images/Dash_Journal.jpg);
+}
+
+.column.breathe {
+  background-image: url(../Images/Dash_Breathe.jpg);
+}
+
+.column.meditate {
+  background-image: url(../Images/Dash_Meditation.jpg);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.Journalbtn{
+  background-color: white; 
+  border: 2px solid #465252;
+  color: black;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.Journalbtn:hover {
+  background-color: #BD8A75; 
+  color: white;
+}
+
+.Breathebtn{
+  background-color: white; 
+  border: 2px solid white;
+  color: black;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.Breathebtn:hover {
+  background-color: #9DDFFF; 
+  color: white;
+}
+
+.Meditatebtn{
+  background-color: white; 
+  border: 2px solid #14492B;
+  color: black;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.Meditatebtn:hover {
+  background-color: #C8E690; 
+  color: white;
+}
+
+/* Journal
+--------------------------------------*/
+.Jbackground{
+  background-color: #BD8A75;
+}

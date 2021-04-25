@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+</head>
+<body>
+    <div class="row">
+       <!-- <h1><a href = "Settings.html">Settings</a></h1> -->
+       <a href = "/journal">
+            <div class="column journal">
+                <button class="Journalbtn">Journal</button>
+            </div>
+        </a>
+        
+        <a href = "/breathe">
+            <div class="column breathe">
+                <button class="Breathebtn">BREATHE</button>
+            </div>
+        </a>
+
+        <a href = "/meditate">
+            <div class="column meditate">
+                <button class="Meditatebtn">Meditation</button>
+            </div>
+        </a>
+
+    </div>
+</body>
+</html>

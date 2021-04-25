@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Page</title>
+        <link rel="stylesheet" href= "{{ url_for('static',filename='css/style.css') }}">
+    </head>
+
+    <body class = "background">
+        <main>
+            <header>
+                <nav class ="navbar">
+                    <a class = "navbar_brand" href="#">Logo</a>
+                </nav>
+
+                <div class = "content-wrap">
+                    <h1 class ="Brand">Pasithea</h1>
+                    <form action="/login">
+                        <button class ="buttons" >Sign In</button>
+                    </form>
+                    <form action="/signup">
+                        <button class ="buttons"> Sign up</button>
+                    </form>
+                </div>
+            </header>
+        </main>
+    </body>
+
+
+</html>
