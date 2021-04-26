@@ -5,28 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meditate</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
 
 </head>
 
 <body class="meditateBG">
     <h1> Meditate</h1>
     <div class="jumpBtns">
-        <a href = "Meditate.html#2minute">
+        <a href = "/meditate#2minute">
             <button class="twoMinBtn">2 Minute</button>
         </a>
-        <a href = "Meditate.html#5minute">
+        <a href = "/meditate#5minute">
             <button class="fiveMinBtn">5 Minute</button>
         </a>
-        <a href = "Meditate.html#10minute">
+        <a href = "/meditate#10minute">
             <button class="tenMinBtn">10 Minute</button>
         </a>
-        <a href = "Meditate.html#Pranayama">
+        <a href = "/meditate#Pranayama">
             <button class="pranayamaBtn">Pranayama</button>
         </a>
     </div> 
     
-    <a href = "Dashboard.html">
+    <a href = "/dashboard">
         <button class="Homebtn">Home</button>
     </a>
     <div class= "videos">

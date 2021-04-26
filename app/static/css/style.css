@@ -377,6 +377,19 @@ transition: 0.1s ease;
   height: 100vh;
   display: block;
 }
+
+.column.journal {
+  background-image: url(../Images/Dash_Journal.jpg);
+}
+
+.column.breathe {
+  background-image: url(../Images/Dash_Breathe.jpg);
+}
+
+.column.meditate {
+  background-image: url(../Images/Dash_Meditation.jpg);
+}
+
 .row:after {
   content: "";
   display: table;
