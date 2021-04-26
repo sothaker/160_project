@@ -294,14 +294,62 @@ transition: 0.1s ease;
 
 /* Discover
 --------------------------------------*/
+
 .Disc_body{
   background-image: url(../Images/Discover_Background.jpg);
   color: whitesmoke;
+  text-align: center;
 }
 .Description{
   max-width: 500px;
   margin: auto;
 }
+
+.Disc{
+  color: ghostwhite;
+  background: #095443; 
+  font-size: 20px; 
+  padding: 10px; 
+  border: 1px solid lightgray; 
+  margin: 10px;
+  font-family: Georgia;
+  font-style: italic;
+}
+
+.disc_meditation{
+  color: ghostwhite;
+  background: #095443; 
+  font-size: 20px; 
+  padding: 10px; 
+  border: 1px solid lightgray; 
+  margin: 10px;
+  font-family: Georgia;
+  font-style: italic;
+}
+
+.disc_breathing{
+  color: ghostwhite;
+  background: #095443; 
+  font-size: 20px; 
+  padding: 10px; 
+  border: 1px solid lightgray; 
+  margin: 10px;
+  font-family: Georgia;
+  font-style: italic;
+}
+
+.disc_journal{
+  color: ghostwhite;
+  background: #095443; 
+  display: inline-block;
+  font-size: 20px; 
+  padding: 10px; 
+  border: 1px solid lightgray; 
+  margin: 10px;
+  font-family: Georgia;
+  font-style: italic;
+}
+
 .dashbtn{
   background-color: white; 
   border: 2px solid #074051;
@@ -319,7 +367,8 @@ transition: 0.1s ease;
   color: white;
 }
 
-
+/* Dashboard
+--------------------------------------*/
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
@@ -328,19 +377,6 @@ transition: 0.1s ease;
   height: 100vh;
   display: block;
 }
-
-.column.journal {
-  background-image: url(../Images/Dash_Journal.jpg);
-}
-
-.column.breathe {
-  background-image: url(../Images/Dash_Breathe.jpg);
-}
-
-.column.meditate {
-  background-image: url(../Images/Dash_Meditation.jpg);
-}
-
 .row:after {
   content: "";
   display: table;
@@ -407,4 +443,119 @@ transition: 0.1s ease;
 --------------------------------------*/
 .Jbackground{
   background-color: #BD8A75;
+  text-align: center;
+  font-family: Georgia;
+  font-style: italic;
+  color: #53ad6d;
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.Entries{
+  display: flex;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 5%;
+}
+
+.Homebtn{
+  background-color: white; 
+  border: 2px solid #14492B;
+  color: black;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.Homebtn:hover {
+  background-color: #53ad6d; 
+  color: white;
+}
+
+/* Meditate
+--------------------------------------*/
+.meditateBG{
+  background-color: #8DBF4C;
+  text-align: center;
+  color: #4c8dbf;
+  font-family: Georgia;
+  font-style: italic;
+}
+
+.videos{
+  padding: 5%;
+  justify-content: center;
+}
+
+.twoMinBtn{
+  background-color: white; 
+  border: 2px solid #14492B;
+  color: black;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.twoMinBtn:hover {
+  background-color: #B51BA2; 
+  color: white;
+}
+
+.fiveMinBtn{
+  background-color: white; 
+  border: 2px solid #14492B;
+  color: black;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.fiveMinBtn:hover {
+  background-color: #F8854A; 
+  color: white;
+}
+
+.tenMinBtn{
+  background-color: white; 
+  border: 2px solid #14492B;
+  color: black;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.tenMinBtn:hover {
+  background-color: #008890; 
+  color: white;
+}
+
+.pranayamaBtn{
+  background-color: white; 
+  border: 2px solid #14492B;
+  color: black;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.pranayamaBtn:hover {
+  background-color: #607F02; 
+  color: white;
 }
