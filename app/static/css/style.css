@@ -370,6 +370,12 @@ transition: 0.1s ease;
 /* Dashboard
 --------------------------------------*/
 /* Create three equal columns that floats next to each other */
+.logoutLblPos{
+    position:fixed;
+    right:10px;
+    top:5px;
+ }
+
 .column {
   float: left;
   width: 33.33%;
