@@ -467,9 +467,16 @@ transition: 0.1s ease;
 }
 
 .Entries{
+  color: ghostwhite;
+  background: #53ad6d; 
+  font-size: 20px; 
+  padding: 10px; 
+  border: 1px solid lightgray; 
+  margin: 10px;
+  font-family: Georgia;
+  font-style: italic;
   display: flex;
   justify-content: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 5%;
 }
 
