@@ -18,7 +18,20 @@
             entry is an array containing the timestamp, journal entry, and email of the user
         -->
         {% for entry in entries %}
-            <br>{{entry}}</br>
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Entry</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>{{timestamp}}</td>
+                    <td>{{entry}}</td>
+                    <td>{{user.email}}</td>
+                </tr>
+                
+            </table>
+           <!-- <br>{{entry}}</br>-->
         {% endfor %}
     </div>
     <a href = "/dashboard">
