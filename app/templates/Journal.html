@@ -14,8 +14,11 @@
         <button id = "submit">Submit</button>
     </form>
     <div class="Entries">
+        <!--
+            entry is an array containing the timestamp, journal entry, and email of the user
+        -->
         {% for entry in entries %}
-            <p>{{entry}}</p>
+            <br>{{entry}}</br>
         {% endfor %}
     </div>
     <a href = "/dashboard">
