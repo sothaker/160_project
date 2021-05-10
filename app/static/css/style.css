@@ -472,18 +472,17 @@ transition: 0.1s ease;
   justify-content: center;
 }
 
-.Entries{
+table, th, td{
   color: ghostwhite;
   background: #53ad6d; 
   font-size: 20px; 
   padding: 10px; 
   border: 1px solid lightgray; 
-  margin: 10px;
   font-family: Georgia;
   font-style: italic;
-  display: flex;
   justify-content: center;
-  padding: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Homebtn{
