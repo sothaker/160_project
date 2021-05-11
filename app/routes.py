@@ -78,7 +78,7 @@ def journal():
     if current_user == None:
         return redirect(url_for('home'))
     if(request.method=='GET'):
-        print(current_user)
+        #print(current_user)
         entries = entryHandler.retrieve_entries(current_user)
         return render_template('Journal.html', entries = entries)
     else:
